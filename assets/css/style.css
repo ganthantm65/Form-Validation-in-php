@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.banner{
+    position: absolute;
+    top: 10%;
+    background: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 90vh;
+}
+.form1{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    font-family: "Poppins",sans-serif;
+    -webkit-box-shadow: 2px 5px 12px -2px #000000; 
+    box-shadow: 2px 5px 12px -2px #000000;
+}
+.form1 input{
+    all: unset;
+    background-color: transparent;
+    width: 280px;
+}
+.form1 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form1 input[type="submit"]{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(18, 94, 236);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form2{
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    width: 450px;
+    height: 550px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    font-family: "Poppins",sans-serif;
+    -webkit-box-shadow: 2px 5px 12px -2px #000000; 
+    box-shadow: 2px 5px 12px -2px #000000;
+}
+.form2 input{
+    all: unset;
+    background-color: transparent;
+    width: 280px;
+}
+.form2 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form2 input[type="submit"]{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(18, 94, 236);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
